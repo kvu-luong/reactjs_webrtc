@@ -68,3 +68,40 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Self Notes
+#### Environment
+[Start document](https://create-react-app.dev/docs/getting-started/)
+```
+npm install -g create-react-app 
+```
+#### Creating app
+``` 
+npx create-react-app <app-name>
+```
+#### Running app
+``` 
+cd <app-name>
+npm start
+```
+#### style-component
+[Start Doc](https://styled-components.com/docs/basics#getting-started)
+
+Write it in javascript file with normal css
+```
+npm install --save styled-components 
+```
+
+#### style-system
+[Start Doc](https://styled-system.com/)
+
+All basic css which support to extend style-component quickly and convenience.
+
+### Fontawesome
+[Start Doc](https://fontawesome.com/v5.15/how-to-use/on-the-web/using-with/react)
+``` 
+npm install --save @fortawesome/react-fontawesome
+npm i --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+```
+
